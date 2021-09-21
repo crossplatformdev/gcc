@@ -3535,6 +3535,10 @@ xtensa*-*-linux*)
 	tm_file="${tm_file} elfos.h gnu-user.h linux.h glibc-stdint.h xtensa/linux.h"
 	tmake_file="${tmake_file} xtensa/t-xtensa"
 	;;
+libre8*-*-linux*)
+	tm_file="${tm_file} elfos.h gnu-user.h linux.h glibc-stdint.h"
+	tmake_file="${tmake_file} xtensa/t-libre8"
+	;;
 xtensa*-*-uclinux*)
 	tm_file="${tm_file} elfos.h gnu-user.h linux.h glibc-stdint.h xtensa/uclinux.h"
 	tmake_file="${tmake_file} xtensa/t-xtensa"
